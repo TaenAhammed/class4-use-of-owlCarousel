@@ -1,0 +1,102 @@
+/* Base CSS */
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sectionPadding {
+  padding: 80px 0;
+}
+
+/* Custom CSS */
+.sectionTitle h1 {
+  text-transform: uppercase;
+  color: #04BFFF;
+}
+.sectionTitle p {
+  color: #555555;
+  font-weight: 700;
+}
+
+.sectionTitleSep {
+  margin: 0 auto 30px;
+  width: 360px;
+  background: #01C1FF;
+  height: 2px;
+  position: relative;
+}
+.sectionTitleSep:before {
+  position: absolute;
+  width: 100px;
+  top: -2px;
+  left: 50%;
+  margin-left: -50px;
+  height: 6px;
+  content: "";
+  background: #01C1FF;
+}
+
+.single-team-box {
+  text-align: center;
+  padding: 30px;
+}
+.single-team-box img {
+  width: 100px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.team-desc {
+  margin-top: 30px;
+}
+.team-desc span i {
+  color: #01C1FF;
+}
+.team-desc h4 {
+  color: #01C1FF;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.team-desc h4 span {
+  color: #7D7D7D;
+  display: block;
+  margin-top: 10px;
+}
+
+.teamCarousel .owl-nav div {
+  position: absolute;
+  background: #01C1FF;
+  color: #fff;
+  height: 36px;
+  width: 36px;
+  font-size: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  top: 50%;
+  margin-top: -36px;
+  left: -70px;
+}
+.teamCarousel .owl-nav div.owl-next {
+  left: auto;
+  right: -70px;
+}
+
+/*# sourceMappingURL=style.css.map */
